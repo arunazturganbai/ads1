@@ -4,3 +4,10 @@ This code finds minimum number in an array by iterating through each element in 
 This program asks the user to input the number of elements in an array and the elements themselves. It then calculates and prints the average of the elements using a separate method called "calculateAverage".
 # Problem 3 (PrimeNum file)
 This code takes an input number from the user and checks if it is a prime number or not. It uses a separate class called "PrimeChecker" that contains a method to check if a number is prime.
+# Problem 4
+# Problem 5
+# Problem 6
+# Problem 7
+# Problem 8
+# Problem 9
+# Problem 10
