@@ -13,7 +13,7 @@ public class FindAver {
         }
 
         double average = calculateAverage(array); // Call the calculateAverage method and pass the array as input
-        System.out.println("The average of the array is: " + average);
+        System.out.println(average);
         input.close(); // Close the Scanner object
     }
 
