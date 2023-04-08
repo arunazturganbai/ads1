@@ -26,6 +26,6 @@ public class FindMin {
                 min = arr[i]; // Update the minimum if we find a smaller element
             }
         }
-        return min; // Return the minimum element of the array
+        return min; // Return the minimum number of the array
     }
 }
