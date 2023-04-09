@@ -20,10 +20,10 @@ public class FindMin {
         if (n == 0) {
             return Integer.MAX_VALUE;
         }
-        int min = arr[0]; // Initialize the minimum to be the first element of the array
+        int min = arr[0]; // initialize the minimum to be the first element of the array
         for (int i = 1; i < n; i++) {
             if (arr[i] < min) {
-                min = arr[i]; // Update the minimum if we find a smaller element
+                min = arr[i]; // update the minimum if we find a smaller element
             }
         }
         return min; // Return the minimum number of the array
