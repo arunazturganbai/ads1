@@ -5,6 +5,7 @@ This program asks the user to input the number of elements in an array and the e
 # Problem 3 (PrimeNum file)
 This code takes an input number from the user and checks if it is a prime number or not. It uses a separate class called "PrimeChecker" that contains a method to check if a number is prime.
 # Problem 4
+This Java program calculates the factorial of a number using recursion. It reads the number inputted by the user, calls a recursive "factorial" function, and prints the result to the console. The "factorial" function returns 1 if the input is 0 (base case), otherwise it computes the factorial recursively using n! = n * (n-1)!.
 # Problem 5
 # Problem 6
 # Problem 7
