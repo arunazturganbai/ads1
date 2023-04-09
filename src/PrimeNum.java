@@ -3,13 +3,12 @@ import java.util.Scanner;
 public class PrimeNum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a number: ");
         int n = input.nextInt(); // Prompt the user to input a number
         boolean isPrime = PrimeChecker.isPrime(n); // Call the isPrime method of the PrimeChecker class and pass the number as input
         if (isPrime) {
-            System.out.println(n + " is a prime number.");
+            System.out.println("Prime");
         } else {
-            System.out.println(n + " is not a prime number.");
+            System.out.println("Composite");
         }
     }
 }
