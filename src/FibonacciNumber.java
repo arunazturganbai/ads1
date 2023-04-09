@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class FibonacciNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number: ");
         int n = input.nextInt(); // Prompt the user to input a number
         int fibonacci = fibonacci(n); // Call the fibonacci method and store the result in an int variable
         System.out.println(fibonacci); // Output the result to the console
