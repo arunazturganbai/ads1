@@ -10,5 +10,10 @@ This Java program calculates the factorial of a number using recursion. It reads
 # Problem 6
 # Problem 7
 # Problem 8
+This Java program checks if a given string consists of only digits. It takes a user input string, passes it to a method called checkAllDigits, which returns true if all characters in the string are digits, and false otherwise. The main method then prints "Yes" if the checkAllDigits method returns true, and "No" otherwise. The program uses recursion to check each character in the string.
 # Problem 9
+The code prompts the user to input two integers n and k, and then calls the recursive method calculateBinomialCoefficient to compute the binomial coefficient C(n,k) using the formula C(n,k) = C(n-1,k-1) + C(n-1,k). The method returns 1 for base cases where k equals 0 or n, and recursively calls itself for the other cases until a base case is reached.
+
+Overall, this code calculates the binomial coefficient C(n,k) using recursion.
 # Problem 10
+This code finds the greatest common divisor (GCD) of two numbers using the Euclidean algorithm recursively. The user is prompted to enter two integers and the findGCD function is called with those values as arguments. The function returns the GCD of the two numbers by recursively calling itself with the second argument being the remainder of the first argument divided by the second argument, until the second argument is 0 (the base case). The final result is printed to the console.
